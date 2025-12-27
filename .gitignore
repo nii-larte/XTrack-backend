@@ -1,0 +1,47 @@
+# Environment variable
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Database files
+*.db
+*.sqlite3
+database_export.py
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flask instance folder (if used for config)
+instance/
+
+# Firebase secrets (never commit service account keys)
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# Firebase local generated files (optional)
+firebase-messaging-sw.js
+
+# user details
+static/
+uploads/
+reports/
