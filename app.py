@@ -42,13 +42,13 @@ def create_app(test_config=None):
 if __name__ == "__main__":
     app = create_app()
     
-    print("Database URL:", app.config.get("SQLALCHEMY_DATABASE_URI"))
-    print("CORS allowing origin:", app.config["FRONTEND_URL"])
+    # print("Database URL:", app.config.get("SQLALCHEMY_DATABASE_URI"))
+    # print("CORS allowing origin:", app.config["FRONTEND_URL"])
 
-    with app.app_context():
-        users = User.query.all()
-        print("All users in database:", users)
+    # with app.app_context():
+    #     users = User.query.all()
+    #     print("All users in database:", users)
 
-    app.run()
+    # app.run()
 
 
