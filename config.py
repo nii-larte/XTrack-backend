@@ -46,5 +46,7 @@ class Config:
     JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=7)
     FRONTEND_URL = os.getenv("FRONTEND_URL")
 
-print("DEBUG:", Config.DEBUG)
-print("Using FRONTEND_URL:", Config.FRONTEND_URL)
+if __name__ == "__main__":
+
+    print("DEBUG:", Config.DEBUG)
+    print("Using FRONTEND_URL:", Config.FRONTEND_URL)
